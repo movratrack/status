@@ -1,36 +1,43 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: movratrack
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: API
+    url: https://app.movratrack.com.br/health
+    icon: https://app.movratrack.com.br/favicon.ico
+
+  - name: Aplicação Web
+    url: https://app.movratrack.com.br
+    icon: https://app.movratrack.com.br/favicon.ico
+
+  - name: Listener (GPS)
     check: "tcp-ping"
-    ipv6: true
+    url: 20.97.255.68
+    port: 7001
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.movratrack.com.br
+  name: MovraTrack Status
+  theme: light
+  introTitle: "**MovraTrack** está no ar"
+  introMessage: Status em tempo real dos serviços MovraTrack. Se houver algum problema, abriremos um incidente automaticamente.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: MovraTrack
+      href: https://movratrack.com.br
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Incidentes ativos
+  allSystemsOperational: Todos os sistemas operacionais
+  incidentReport: "Relatório de incidente para $NUMBER"
+  activeIncidentSummary: "Aberto em $DATE"
+  incidentCompleteTitle: "Resolvido"
+  pastIncidents: Incidentes passados
+  pastIncidentsResolved: Resolvido em $DURATION
+  liveStatus: Status ao vivo
+  responseTime: Tempo de resposta
+  uptime: Uptime
+  ms: ms
+  loading: Carregando
+  navContactUs: Contato
