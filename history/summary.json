@@ -40,18 +40,19 @@
     "url": "20.97.255.68",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "listener-gps",
-    "status": "up",
-    "uptime": "89.59%",
-    "uptimeDay": "89.59%",
-    "uptimeWeek": "89.59%",
-    "uptimeMonth": "89.59%",
-    "uptimeYear": "89.59%",
+    "status": "down",
+    "uptime": "92.46%",
+    "uptimeDay": "92.46%",
+    "uptimeWeek": "92.46%",
+    "uptimeMonth": "92.46%",
+    "uptimeYear": "92.46%",
     "time": 26,
     "timeDay": 26,
     "timeWeek": 26,
     "timeMonth": 26,
     "timeYear": 26,
     "dailyMinutesDown": {
+      "2026-03-26": 0,
       "2026-03-25": 39
     }
   }
