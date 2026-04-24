@@ -4,10 +4,10 @@
     "url": "https://app.movratrack.com.br/health",
     "icon": "https://app.movratrack.com.br/favicon.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 558,
@@ -15,17 +15,19 @@
     "timeWeek": 539,
     "timeMonth": 558,
     "timeYear": 558,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-24": 1
+    }
   },
   {
     "name": "Aplicação Web",
     "url": "https://app.movratrack.com.br",
     "icon": "https://app.movratrack.com.br/favicon.ico",
     "slug": "aplicacao-web",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 24,
@@ -33,7 +35,9 @@
     "timeWeek": 23,
     "timeMonth": 24,
     "timeYear": 24,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-24": 1
+    }
   },
   {
     "name": "Listener (GPS)",
@@ -41,18 +45,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "listener-gps",
     "status": "down",
-    "uptime": "74.69%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.67%",
-    "uptimeMonth": "74.69%",
-    "uptimeYear": "74.69%",
+    "uptime": "74.26%",
+    "uptimeDay": "82.44%",
+    "uptimeWeek": "97.17%",
+    "uptimeMonth": "74.26%",
+    "uptimeYear": "74.26%",
     "time": 40,
     "timeDay": 70,
     "timeWeek": 41,
     "timeMonth": 40,
     "timeYear": 40,
     "dailyMinutesDown": {
-      "2026-04-24": 0,
+      "2026-04-24": 253,
       "2026-04-19": 33,
       "2026-04-07": 42,
       "2026-04-05": 80,
