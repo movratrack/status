@@ -12,7 +12,7 @@ sites:
 
   - name: Listener (GPS)
     check: "tcp-ping"
-    url: 20.97.255.68
+    url: 172.212.185.45
     port: 7001
 
 status-website:

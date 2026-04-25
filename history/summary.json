@@ -41,7 +41,7 @@
   },
   {
     "name": "Listener (GPS)",
-    "url": "20.97.255.68",
+    "url": "172.212.185.45",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "listener-gps",
     "status": "down",
